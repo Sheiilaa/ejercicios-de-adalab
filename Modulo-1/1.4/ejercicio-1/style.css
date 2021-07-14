@@ -1,0 +1,13 @@
+.contenedor {
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+  border: solid green 3px;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  background-color: chocolate;
+  font-size: 20px;
+  border: solid black 2px;
+}
