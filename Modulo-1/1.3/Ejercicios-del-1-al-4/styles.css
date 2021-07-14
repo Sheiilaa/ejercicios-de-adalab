@@ -1,0 +1,37 @@
+.primero {
+  height: 100px;
+  width: 100px;
+  display: block;
+  background: cyan;
+}
+.segundo {
+  height: 100px;
+  width: 100px;
+  display: inline;
+  background: cyan;
+}
+.tercero {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  background: cyan;
+}
+.cuarto {
+  height: 100px;
+  width: 100px;
+  display: none;
+  background: cyan;
+}
+/* 
+Aqui debajo pondremos los estilos de la foto del perro
+*/
+.perro {
+  height: 100px;
+  width: 100px;
+}
+
+/* Aqui pondremos los estilos del ejercicio 4 */
+.perrete {
+  height: 200px;
+  width: 200px;
+}
