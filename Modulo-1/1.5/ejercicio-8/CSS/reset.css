@@ -1,0 +1,49 @@
+/ * http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   Licencia: ninguna (dominio público)
+* /
+
+html ,  cuerpo ,  div ,  intervalo ,  subprograma ,  objeto ,  iframe ,
+h1 ,  h2 ,  h3 ,  h4 ,  h5 ,  h6 ,  p ,  blockquote ,  pre ,
+una ,  abbr ,  sigla ,  dirección ,  grande ,  citar ,  código ,
+del ,  dfn ,  em ,  img ,  ins ,  kbd ,  q ,  s ,  samp ,
+pequeño ,  huelga ,  fuerte ,  sub ,  sup ,  tt ,  var ,
+b ,  u ,  yo ,  centro ,
+dl ,  dt ,  dd ,  ol ,  ul ,  li ,
+fieldset ,  formulario ,  etiqueta ,  leyenda ,
+tabla ,  subtítulo ,  tbody ,  tfoot ,  thead ,  tr ,  th ,  td ,
+artículo ,  a un lado ,  tela ,  detalles ,  integrar , 
+figura ,  figcaption ,  pie de página ,  encabezado ,  hgroup , 
+menú ,  navegación ,  salida ,  ruby ,  sección ,  resumen ,
+tiempo ,  marca ,  audio ,  video {
+	margen :  0 ;
+	acolchado :  0 ;
+	borde :  0 ;
+	tamaño de fuente :  100 % ;
+	fuente : heredar;
+	alineación vertical : línea de base;
+	de caja de tamaño : frontera-box;
+}
+/ * Restablecimiento de la función de visualización de HTML5 para navegadores más antiguos * /
+aparte , artículo ,  detalles , figcaption , figura ,    
+pie de página ,  encabezado , grupo  h ,  menú ,  navegación ,  sección {
+	pantalla : bloque;
+}
+cuerpo {
+	altura de línea :  1 ;
+}
+ol ,  ul {
+	estilo de lista : ninguno;
+}
+blockquote ,  q {
+	comillas : ninguna;
+}
+blockquote : antes ,  blockquote : después ,
+q : antes ,  q : después {
+	contenido :  '' ;
+	contenido : ninguno;
+}
+mesa {
+	colapso de la frontera : colapso;
+	espaciado de bordes :  0 ;
+}

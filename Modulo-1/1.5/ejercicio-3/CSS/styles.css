@@ -1,0 +1,14 @@
+.cabecera {
+  background: purple;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.contenedor {
+  position: relative;
+  top: 100px;
+  z-index: 0;
+}

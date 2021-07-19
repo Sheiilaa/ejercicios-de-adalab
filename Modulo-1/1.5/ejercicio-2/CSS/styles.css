@@ -1,0 +1,30 @@
+.div1 {
+  background: blue;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+  position: relative;
+  right: 100px;
+  bottom: 20px;
+}
+.div2 {
+  background: purple;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+  position: relative;
+  left: 150px;
+  top: 320px;
+}
+.div3 {
+  background: red;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+  position: relative;
+  right: 180px;
+  top: 240px;
+}
