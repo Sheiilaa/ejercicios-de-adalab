@@ -1,0 +1,17 @@
+/*Mobile*/
+body {
+  background-color: red;
+
+/*Tablet*/
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/*Dektop*/
+@media all and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}

@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Create an account</h1>
+      <h2>It's free and always will be</h2>
+      <form action="nothing" method="GET">
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Surname" />
+        <input type="email" placeholder="Email or mobile number" />
+        <input
+          type="text"
+          placeholder="Re-enter email or mobile number"
+          required
+        />
+        <input type="password" placeholder="New password" />
+        <label for="Birthday">Birthday</label>
+        <select name="day" id="Birthday">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select name="Month" id="Birthday">
+          <option value="enero">Enero</option>
+          <option value="febrero">Febrero</option>
+          <option value="marzo">Marzo</option>
+          <option value="abril">Abril</option>
+          <option value="mayo">Mayo</option>
+          <option value="Junio">junio</option>
+        </select>
+        <select name="Year" id="Birthday">
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+        </select>
+        <label for="Female">
+          Female
+          <input type="radio" id="female" />
+        </label>
+        <label for="Male"
+          >Male
+          <input type="radio" id="Male" />
+        </label>
+        <input type="submit" value="Create an account" />
+        <input type="reset" value="Restaurar valores por defecto" />
+      </form>
+    </main>
+  </body>
+</html>
